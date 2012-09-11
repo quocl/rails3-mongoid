@@ -21,6 +21,7 @@ end
 
 gem 'jquery-rails'
 gem "mongoid", ">= 3.0.3"
+gem 'therubyracer'
 
 group :development, :test do
   gem "rspec-rails"
