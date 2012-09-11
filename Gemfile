@@ -20,6 +20,21 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem "mongoid", ">= 3.0.3"
+
+group :development, :test do
+  gem "rspec-rails"
+  gem "factory_girl_rails"
+end
+
+group :test do
+  gem "capybara", ">= 1.1.2"
+  gem "database_cleaner", ">= 0.8.0"
+  gem "mongoid-rspec", ">= 1.4.6"
+  gem "email_spec", ">= 1.2.1"
+  gem "cucumber-rails", ">= 1.3.0", :require => false
+  gem "launchy", ">= 2.1.2"
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
