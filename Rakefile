@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Rails3MongoidDevise::Application.load_tasks
+Rails3mongoid::Application.load_tasks

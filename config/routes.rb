@@ -1,4 +1,4 @@
-Rails3MongoidDevise::Application.routes.draw do
+Rails3mongoid::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
